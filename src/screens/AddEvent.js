@@ -35,8 +35,6 @@ function AddEvent() {
                 type: types.deleteAll
             }))
             .then(() => navigation.goBack())
-        
-        
     }
 
     return(

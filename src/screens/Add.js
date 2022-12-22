@@ -59,10 +59,6 @@ function Add() {
             payload: allPlayers
         })
         navigation.goBack()
-        /* await allPlayers.forEach(player => {
-            addDoc(collection(database, 'players'), player)
-        })
-        navigation.goBack() */
     }
 
     return (
